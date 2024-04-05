@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-*Python Challenge*
 
-Welcome to my Python Challenge project repository!
-
-Overview
-This repository contains Python scripts for two projects: PyBank and PyPoll. The main.py files for each project are located in the "analysis" folder within their respective PyBank or PyPoll directories.
-
-Usage
-=======
 # Python Challenge (Module 3 Challenge)
 
 Welcome to my Python Challenge project repository!
