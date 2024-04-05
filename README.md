@@ -10,7 +10,7 @@ This repository contains Python scripts for two projects: PyBank and PyPoll. The
 
 To run the Python scripts, follow these steps:
 
-Open your terminal or command prompt whilst in the analysis folder
+Open your terminal or command prompt at the "analysis" folder
 in the corresponding PyBank or PyPoll directory.
 
 
