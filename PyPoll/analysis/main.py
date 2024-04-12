@@ -58,3 +58,21 @@ print(f"Raymon Anthony Doane:,{raymon_percentage:.3f}%,({Raymon_votes})")
 print("-----------------------")
 print(f"Winner: {winner}")
 print("-----------------------")
+
+# Write financial analysis to the text file
+with open('election_results.txt', 'w') as txtfile:
+
+ # Write election results to the text file
+    txtfile.write("Election Results\n")
+    txtfile.write("-----------------------\n")
+    txtfile.write(f"Total Votes: {total_votes}\n")
+    txtfile.write("-----------------------\n")
+    txtfile.write(f"Charles Casper Stockham: {Charles_percentage:.3f}%, ({Charles_votes})\n")
+    txtfile.write(f"Diana DeGette: {diana_percentage:.3f}%, ({Diana_votes})\n")
+    txtfile.write(f"Raymon Anthony Doane: {raymon_percentage:.3f}%, ({Raymon_votes})\n")
+    txtfile.write("-----------------------\n")
+    txtfile.write(f"Winner: {winner}\n")
+    txtfile.write("-----------------------\n")
+
+# Print confirmation message
+print(f"Election analysis results have been saved to 'election_results.txt'")

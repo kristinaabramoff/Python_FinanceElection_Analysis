@@ -76,3 +76,15 @@ print(f"Total: ${total_profit}")
 print(f"Average Change: $ {average_change:.2f}")  # Average change is total profit divided by total months
 print("Greatest Increase in Profits:", max_increase_month, "($", max_increase, ")")
 print("Greatest Decrease in Profits:", min_decrease_month, "($", min_decrease, ")")
+
+# Write financial analysis to the text file
+with open('financial_analysis.txt', 'w') as txtfile:
+        txtfile.write("Financial Analysis\n")
+        txtfile.write("-----------------------\n")
+        txtfile.write(f"Total Months: {total_months}\n")
+        txtfile.write(f"Total: ${total_profit}\n")
+        txtfile.write(f"Average Change: $ {average_change:.2f}\n")
+        txtfile.write(f"Greatest Increase in Profits: {max_increase_month} (${max_increase})\n")
+        txtfile.write(f"Greatest Decrease in Profits: {min_decrease_month} (${min_decrease})\n")
+        
+print("Financial analysis results have been saved to 'financial_analysis.txt'")
