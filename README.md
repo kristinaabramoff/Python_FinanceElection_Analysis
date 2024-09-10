@@ -1,10 +1,9 @@
 
-# Python Challenge (Module 3 Challenge)
+# Financial and Election data analysis with Python 
 
 Welcome to my Python Challenge project repository!
 
-### Overview
-This repository contains Python scripts for two projects: PyBank and PyPoll. The main.py files for each project are located in the "analysis" folder within their respective PyBank or PyPoll directories.
+This repository contains Python scripts for two data analysis projects: **PyBank** and **PyPoll**, designed to showcase the use of Python for real-world financial and election data analysis.
 
 ### Usage
 
