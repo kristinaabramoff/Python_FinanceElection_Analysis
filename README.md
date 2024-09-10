@@ -14,6 +14,10 @@ This project features two Python-based data analysis tasks:
 
 To run the Python scripts, follow these steps:
 
+Clone the repository
+
+bash " git clone https://github.com/kristinaabramoff/Python_FinanceElection_Analysis.git"
+
 Open your terminal or command prompt at the "analysis" folder
 in the corresponding PyBank or PyPoll directory.
 
