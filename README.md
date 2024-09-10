@@ -37,7 +37,7 @@ To run the PyBank script, use the following command in your terminal:
 
 python main.py
 
-###Sample output analysis 
+### Sample output analysis 
 
 ``` Financial Analysis
 Total Months: 86
